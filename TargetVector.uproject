@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{E6F4CEF6-4A3E-AA1D-7992-E6B7A6C8031D}",
+	"EngineAssociation": "{C5BE0AD3-461B-4FF0-1FE6-02846036E3AD}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -48,11 +48,6 @@
 		{
 			"Name": "ModularGameplay",
 			"Enabled": true
-		},
-		{
-			"Name": "ModularFeatures_ExtraActions",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a718e1ae4fa741869b8f7aaea1434a8d"
 		},
 		{
 			"Name": "AsyncMixin",
@@ -146,6 +141,38 @@
 		},
 		{
 			"Name": "DaySequence",
+			"Enabled": true
+		},
+		{
+			"Name": "AlsxtDashAbility",
+			"Enabled": true
+		},
+		{
+			"Name": "NetworkPrediction",
+			"Enabled": true
+		},
+		{
+			"Name": "NetworkPredictionInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "PhysicsControl",
+			"Enabled": true
+		},
+		{
+			"Name": "DataRegistry",
+			"Enabled": true
+		},
+		{
+			"Name": "SmartObjects",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayBehaviorSmartObjects",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayBehaviors",
 			"Enabled": true
 		}
 	]

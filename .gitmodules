@@ -49,3 +49,9 @@
 [submodule "Plugins/DataConfig"]
 	path = Plugins/DataConfig
 	url = ../DataConfig.git
+[submodule "Plugins/GameFeatures/AlsxtDashAbility"]
+	path = Plugins/GameFeatures/AlsxtDashAbility
+	url = ../AlsxtDashAbility.git
+[submodule "Plugins/Aurora"]
+	path = Plugins/Aurora
+	url = ../Aurora.git

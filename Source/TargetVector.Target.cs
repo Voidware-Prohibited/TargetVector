@@ -10,7 +10,7 @@ public class TargetVectorTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		bOverrideBuildEnvironment = true;
+		BuildEnvironment = TargetBuildEnvironment.Unique;
 		bWithPushModel = true;
 		ExtraModuleNames.Add("TargetVector");
 	}

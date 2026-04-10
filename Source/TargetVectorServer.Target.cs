@@ -9,8 +9,14 @@ public class TargetVectorServerTarget : TargetRules
     {
         Type = TargetType.Server;
         DefaultBuildSettings = BuildSettingsVersion.Latest;
-		bOverrideBuildEnvironment = true;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        BuildEnvironment = TargetBuildEnvironment.Unique;
 		bWithPushModel = true;
         ExtraModuleNames.Add("TargetVector");
+        
+        bBuildEditor = false;
+        bCompileAgainstEngine = false;
+        bCompileAgainstCoreUObject = false;
+        bCompileAgainstApplicationCore = false;
     }
 }

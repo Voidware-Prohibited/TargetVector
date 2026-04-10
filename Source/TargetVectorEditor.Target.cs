@@ -10,7 +10,7 @@ public class TargetVectorEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-		bOverrideBuildEnvironment = true;
+		BuildEnvironment = TargetBuildEnvironment.Unique;
 		bWithPushModel = true;
 		ExtraModuleNames.Add("TargetVector");
 	}
