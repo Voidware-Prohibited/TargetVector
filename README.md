@@ -18,13 +18,18 @@
      <a href="https://liberapay.com/colorindarkness"><img alt="Support me on Liberapay" src="https://img.shields.io/badge/support_me_on-liberapay-yellow?link=https%3A%2F%2Fliberapay.com%2Fcolorindarkness%2F"></a>
 </p>
 
+> [!NOTE]
+> Following the acquisition of GitHub by Micro$lop, we have taken principled action and have begun primarily hosting code and content on [Codeberg](https://codeberg.org/Voidware-Prohibited/). Mirrors will still be maintained on [GitHub](https://github.com/Voidware-Prohibited/ALSXT/) and [GitLab](https://gitlab.com/Voidware-Prohibited/ALSXT/).
 
 An Unreal Engine 5 Template utilizing EOS (Epic Online Services), Dedicated Server, Steam, Modular Gameplay, Common UI, Advanced Locomotion System Refactored XT, Lyra Modeling Tools and more.
 
+[Wiki](../../wiki/) - [Documentation](https://alsxt.notion.site/2be59e501e7a4bf583437d1636bc7f2f?v=ac361eb5a6a14081892ff9a68e3e7a44/) - [TargetVector Notion](https://alsxt.notion.site/2be59e501e7a4bf583437d1636bc7f2f?v=ac361eb5a6a14081892ff9a68e3e7a44/) - [Submit Pull Request](https://codeberg.org/Voidware-Prohibited/TargetVector/pulls/) - [Twitter](https://x.com/TargetVector/) - [Discord](discord://colorindarkness/)
+
+# Introduction
+
 Design Document
 
-Goals
-
+## Implementation Goals
 - To provide a Complete Free and Open Source Cross-Platform Framework for Modern Multiplayer service games.
 - Assets
 - Procedural Content Generation
@@ -43,6 +48,12 @@ Goals
 - Epic Online Services Support.
 - Steam Workshop Support
 - Service-wide Events.
+- No Monetization or Crypto
+
+# Features
+
+> [!WARNING]
+> _TargetVector is under heavy development, including a rewrite to utilze GAS, Modular features and new technologies. Many features may not be finished or production-ready. Use at your own risk._
 
 - Master Server
      - Scalable
@@ -57,8 +68,6 @@ Goals
      - Server Browser
      - Configuration
      - DLC and UGC Management
-
-- No Monetization or Crypto
 
 This template also employs Test-Driven Development (TDD) and Continuous Integration (CI) and assumes working knowledge of C++, Jenkins and Unit Testing.
 
